@@ -30,7 +30,7 @@ namespace MyHealth.API.Specs.DoctorsController
             // Assert
             var doctors = await response.Content.ReadAsAsync<Doctor[]>();
 
-            doctors.Should().BeEmpty();
+            doctors.Should().NotBeEmpty();
         }
 
         [Fact]
