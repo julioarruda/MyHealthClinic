@@ -25,7 +25,7 @@ namespace MyHealth.Web
 
             if (env.IsDevelopment())
             {
-                builder.AddUserSecrets();
+                builder.AddUserSecrets("");
                 builder.AddApplicationInsightsSettings(developerMode: true);
             }
 
