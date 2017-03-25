@@ -12,7 +12,7 @@ var paths = {
         sass: {}
     },
     dest: {
-        root: './' + project.webroot + '/',
+        root: './' wwwroot '/',
         spa: {
             root: './' + project.webroot + '/app/',
             files: {
