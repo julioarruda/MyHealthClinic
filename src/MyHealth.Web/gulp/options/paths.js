@@ -1,4 +1,4 @@
-﻿var project = require('../../project.json');
+﻿//var project = require('../../project.json');
 
 var paths = {
     lint: {
