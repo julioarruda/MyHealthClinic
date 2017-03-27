@@ -1,4 +1,4 @@
-﻿var project = require('../../project.json');
+﻿//var project = require('../../project.json');
 
 var paths = {
     lint: {
@@ -12,9 +12,9 @@ var paths = {
         sass: {}
     },
     dest: {
-        root: './' + project.webroot + '/',
+        root: './wwwroot/',
         spa: {
-            root: './' + project.webroot + '/app/',
+            root: './wwwroot/app/',
             files: {
                 js: 'app.js',
                 jsMin: 'app.min.js'
