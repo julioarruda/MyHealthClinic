@@ -41,7 +41,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="XUnit dependencies\" />
+    <Folder Include="XUnitdependencies\" />
   </ItemGroup>
 
 </Project>
