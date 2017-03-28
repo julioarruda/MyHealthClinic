@@ -165,8 +165,9 @@ $padding-top: 15px;
         float: right;
 
         &:first-child > a {
-            color: $black-color;
-            font-weight: 400;
+            color: $pink-color;
+            font-weight: 600;
+            font-size: 15px;
         }
     }
 }
