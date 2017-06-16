@@ -6,6 +6,7 @@ namespace MyHealth.Web.Controllers
     {
         public IActionResult Index()
         {
+            ViewData["Testes"];
             return View();
         }
 
