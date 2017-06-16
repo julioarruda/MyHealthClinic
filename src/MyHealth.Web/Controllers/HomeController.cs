@@ -6,7 +6,7 @@ namespace MyHealth.Web.Controllers
     {
         public IActionResult Index()
         {
-            ViewBag.Version = "2.0.0";
+            ViewBag.Version = "2.1.0";
             return View();
         }
 
